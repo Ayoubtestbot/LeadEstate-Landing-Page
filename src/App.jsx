@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage'
 import FeaturesPage from './pages/FeaturesPage'
 import PricingPage from './pages/PricingPage'
 import ContactPage from './pages/ContactPage'
+import TrialSignupPage from './pages/TrialSignupPage'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/features" element={<FeaturesPage />} />
             <Route path="/pricing" element={<PricingPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/trial-signup" element={<TrialSignupPage />} />
           </Routes>
         </main>
         <Footer />

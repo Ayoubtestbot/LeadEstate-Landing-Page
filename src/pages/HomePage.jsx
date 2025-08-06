@@ -104,10 +104,10 @@ const HomePage = () => {
 
               <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row sm:justify-start sm:gap-x-6">
                 <Link
-                  to="/contact"
+                  to="/trial-signup"
                   className="w-full sm:w-auto rounded-lg bg-primary-600 px-8 py-4 text-base font-semibold text-white shadow-lg hover:bg-primary-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-600 transition-all duration-200 hover:shadow-xl hover:scale-105"
                 >
-                  🎯 Start Free Trial - No Credit Card
+                  🚀 Start Your Free 14-Day Trial
                 </Link>
                 <a
                   href="http://localhost:5000"
@@ -453,10 +453,10 @@ const HomePage = () => {
 
             <div className="mt-10 flex flex-col items-center justify-center gap-6 sm:flex-row">
               <Link
-                to="/contact"
+                to="/trial-signup"
                 className="group relative w-full sm:w-auto rounded-xl bg-white px-8 py-4 text-lg font-bold text-primary-600 shadow-2xl hover:bg-gray-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white transition-all duration-200 hover:scale-105"
               >
-                <span className="relative z-10">🚀 Start Your Free Trial Now</span>
+                <span className="relative z-10">🚀 Start Your Free 14-Day Trial</span>
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-yellow-400 to-orange-500 opacity-0 group-hover:opacity-20 transition-opacity"></div>
               </Link>
 
